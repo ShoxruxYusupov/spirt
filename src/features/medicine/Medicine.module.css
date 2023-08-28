@@ -1,0 +1,29 @@
+.medicine {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.medicine h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1dd2c8;
+  margin-bottom: 1s0px;
+}
+
+.medicine h2 + img {
+  width: 150px;
+}
+
+.medicine .tovars {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+@media (max-width: 767px) {
+  .medicine .tovars {
+    grid-template-columns: 1fr;
+  }
+}

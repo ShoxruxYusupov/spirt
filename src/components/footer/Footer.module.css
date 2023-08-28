@@ -1,0 +1,99 @@
+footer {
+  background-color: var(--main-text-color);
+}
+
+.footer {
+  background: url('../../assets/map.png') no-repeat center;
+  display: flex;
+  padding: 40px 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer button {
+  height: 40px;
+  padding: 0 20px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 2px;
+  font-weight: 700;
+  border: none;
+  background-color: var(--main-color);
+  font-size: 18px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.footer label {
+  display: inline-block;
+  max-width: 340px;
+  width: 100%;
+}
+
+.footer input {
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.footer a {
+  font-size: 16px;
+  color: #fff;
+  border-bottom: 2px solid transparent;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  border-bottom: 2px solid var(--main-color);
+  color: var(--main-color);
+}
+
+.footer img {
+  width: 120px;
+}
+
+.footer img + p {
+  font-size: 12px;
+  text-align: right;
+  margin-top: 6px;
+  color: #fff;
+}
+
+.footer .social h3 {
+  font-size: 20px;
+  font-weight: 800;
+  position: relative;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.footer .social h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -78%;
+  height: 2px;
+  width: 50px;
+  background-color: #fff;
+}
+
+.footer .social p {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer li {
+  margin: 5px 0;
+}
+
+@media (max-width: 767px) {
+  .footer .social {
+    margin: 20px 0;
+  }
+  .footer div:not(.social) {
+    margin: 30px 0;
+  }
+}

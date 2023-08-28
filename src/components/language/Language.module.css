@@ -1,0 +1,22 @@
+.language {
+  background-color: var(--main-color);
+  padding: 15px 0;
+  position: relative;
+  z-index: 10000;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 5px;
+}
+
+.btns button {
+  border: none;
+  background-color: transparent;
+}
+
+.btns img {
+  width: 40px;
+}

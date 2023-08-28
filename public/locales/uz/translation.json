@@ -1,0 +1,44 @@
+{
+  "header": {
+    "l1": "Asosiy",
+    "l2": "Dorilar",
+    "l3": "Blog",
+    "l4": "Kontakt"
+  },
+  "read": "To'liq o'qish",
+  "send": "Jo'natish",
+  "form": {
+    "name": "Bemor nomi",
+    "number": "Telefon raqami"
+  },
+  "medicine": "Dori vositalari",
+  "news": "Oxirgi yangiliklar",
+  "footer": {
+    "news": "Yangiliklar",
+    "nav": "Navigatsiya",
+    "service": "Bizning xizmatlar",
+    "social": "Ijtimoiy tarmoqlar",
+    "join": "Yangiliklardan birinchi bo'lib xabardor bo'ling"
+  },
+  "slideInfo": {
+    "s1": "<p>Sizga g'amxo'rlik qiladigan <span> +100 dan </span> dan ortiq jarrohlarimiz bor. </p>",
+    "s2": "<p> Bizning ofisimizda <span> MRI </span> bemorlarimiz uchun yangilandi </p>",
+    "s3": "<p> Onlayn <span> uchrashuvni </span> yangi veb-saytimizdan olish oson </p>",
+    "s4": "<p> Maxsus davolanayotgan bemorlar uchun 30% <span> chegirma </span> </p>"
+  },
+  "contact": {
+    "title": "BIZ BILAN BOG'LANISH",
+    "form": "Qayta aloqa",
+    "office": "Bosh ofis",
+    "text": "O'quvchi sahifaning tartibini ko'rib chiqayotganda uning o'qilishi mumkin bo'lgan mazmuni bilan chalg'itishi uzoq vaqtdan beri tasdiqlangan haqiqatdir. Lorem Ipsum-dan foydalanishning mohiyati shundaki, u harflarning ko'proq yoki kamroq normal taqsimlanishiga ega.",
+    "location": "Kasalxonaning lokatsiyasi"
+  },
+  "placeholder": {
+    "mail": "E-mail kiriting",
+    "name": "Ismingiz",
+    "surname": "Familiya",
+    "phone": "Raqam",
+    "reason": "Sabab",
+    "message": "Sizning xabaringiz"
+  }
+}

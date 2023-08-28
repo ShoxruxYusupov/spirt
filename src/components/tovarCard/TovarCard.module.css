@@ -1,0 +1,9 @@
+.tovarCard h5 {
+  font-size: 22px;
+  color: var(--main-color);
+}
+
+.tovarCard p {
+  padding: 5px;
+  color: rgb(99, 99, 99);
+}
